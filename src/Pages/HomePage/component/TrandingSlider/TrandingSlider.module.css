@@ -80,7 +80,7 @@
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-top: 15px;
+  margin-top: 25px;
   bottom: 20px;
   z-index: 10; 
 }
@@ -100,4 +100,19 @@
 .buttonContainer .next:hover {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 640px) {
+  .content {
+    height: auto; 
+  }
+
+  .sliderHeadinggg {
+    font-size: 1.8rem; 
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .content {
+    height: 25rem; 
+  }
 }

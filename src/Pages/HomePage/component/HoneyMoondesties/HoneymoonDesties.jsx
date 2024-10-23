@@ -89,6 +89,20 @@ const HoneymoonDesties = () => {
               delay: 2500,
               disableOnInteraction: false,
             }}
+            breakpoints={{
+              320: {
+                slidesPerView: 1, // 1 slide on iphones
+                spaceBetween: 10,
+              },
+              640: {
+                slidesPerView: 2, // 2 slides on medium screens
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 3, // 3 slides on large screens
+                spaceBetween: 30,
+              },
+            }}
           >
             {slideData.map((slide, index) => (
               <SwiperSlide className={styles.content} key={index}>

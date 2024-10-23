@@ -124,7 +124,6 @@ const TrandingSlider = () => {
 
       <div className={styles.sliderContainer}>
         <Swiper
-          slidesPerView={3}
           loop={true}
           style={{ height: "32rem", paddingLeft: "10px", paddingRight: "10px" }}
           spaceBetween={30}
@@ -133,8 +132,22 @@ const TrandingSlider = () => {
             nextEl: `.${styles.next}`,
             prevEl: `.${styles.prev}`,
           }}
-          modules={[EffectCoverflow, Pagination, Autoplay, Navigation]}
+          modules={[Pagination, Autoplay, Navigation]}
           className="mySwiper"
+          breakpoints={{
+            320: {
+              slidesPerView: 1, // 1 slide on iphones
+              spaceBetween: 10,
+            },
+            640: {
+              slidesPerView: 2, // 2 slides on medium screens
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3, // 3 slides on large screens
+              spaceBetween: 30,
+            },
+          }}
         >
           {slideData.map((slide, index) => (
             <SwiperSlide className={styles.content} key={index}>
@@ -166,5 +179,4 @@ const TrandingSlider = () => {
     </>
   );
 };
-
 export default TrandingSlider;
