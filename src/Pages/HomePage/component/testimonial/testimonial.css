@@ -115,24 +115,44 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+/* Responsive styles for icons */
 @media screen and (max-width: 1024px) {
-  .swiper {
-    height: 300px;
-  }
-  .swiper-slide .img1 {
-    max-width: 7rem;
-    height: 70px;
-  }
-  .swiper-client-msg {
-    padding: 2rem 4rem;
-  }
-  .swiper-client-msg::before {
-    font-size: 3rem;
-    left: 1rem;
-  }
+  .swiper-client-msg::before,
   .swiper-client-msg::after {
-    font-size: 3rem;
-    right: 2rem;
+    font-size: 4rem; 
   }
   
+  .swiper-client-msg::before {
+    left: 1.5rem; 
+  }
+  
+  .swiper-client-msg::after {
+    right: 2rem;
+  }
+
+  .swiper-client-msg {
+    padding: 3rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-client-msg::before,
+  .swiper-client-msg::after {
+    font-size: 2.2rem;
+  }
+  
+  .swiper-client-msg::before {
+    left: 0.2rem; 
+  }
+  
+  .swiper-client-msg::after {
+    right: 1.5rem; 
+  }
+
+  .swiper-client-msg {
+    /* left: 1.5rem; */
+    padding: 2rem; 
+    font-size: 0.9rem; 
+  }
 }
