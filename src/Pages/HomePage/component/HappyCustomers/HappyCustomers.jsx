@@ -27,7 +27,7 @@ const HappyCustomers = () => {
             <h2>Trusted Vendors</h2>
             <p className="counter-numbers">
               {counterOn && (
-                <CountUp start={0} end={50} duration={4} delay={0.3} />
+                <CountUp start={0} end={20} duration={4} delay={0.3} />
               )}
               +
             </p>
@@ -36,7 +36,7 @@ const HappyCustomers = () => {
             <h2>Happy Customers</h2>
             <p className="counter-numbers">
               {counterOn && (
-                <CountUp start={100} end={600} duration={4} delay={0.3} />
+                <CountUp start={1} end={50} duration={4} delay={0.3} />
               )}
               +
             </p>
@@ -45,7 +45,7 @@ const HappyCustomers = () => {
             <h2>Region Unlocked</h2>
             <p className="counter-numbers">
               {counterOn && (
-                <CountUp start={0} end={10} duration={4} delay={0.3} />
+                <CountUp start={0} end={5} duration={4} delay={0.3} />
               )}
               +
             </p>

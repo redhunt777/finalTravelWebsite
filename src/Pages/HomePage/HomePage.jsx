@@ -8,16 +8,31 @@ import ContactForm from "./component/ContactForm/ContactForm";
 import HoneymoonDesties from "./component/HoneyMoondesties/HoneymoonDesties";
 import TrandingSlider from "./component/TrandingSlider/TrandingSlider";
 import Footer from "./component/Footer/Footer";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const HomePage = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    console.log(location.hash);
+    if (location.hash === "#contact") {
+      const contactSection = document.getElementById("contact");
+      if (contactSection) {
+        contactSection.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+
   return (
     <>
       <Hero />
       <Services></Services>
       <ImageSlider />
-      <Testimonial />
       <HappyCustomers />
-      <HoneymoonDesties />
+
+      <Testimonial />
+      {/* <HoneymoonDesties /> */}
       <ContactForm />
       <TrandingSlider />
       <Footer></Footer>

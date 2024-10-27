@@ -10,6 +10,11 @@ const GroupTripPage = ({ groupTripsData }) => {
   const { location } = useParams();
   const tripData = groupTripsData[location.toLowerCase()]; // Get the trip data from the groupTripsData object
 
+  // Function to handle the Book a Call button click
+  const handleClick = () => {
+    window.location.href = "/#contact";
+  };
+
   // for itinerary dropdown
   const [openDays, setOpenDays] = useState([]);
 
@@ -68,13 +73,13 @@ const GroupTripPage = ({ groupTripsData }) => {
             <div className={style.bookCall}>
               <h3>
                 Want to book this trip?{" "}
-                <Link
-                  to="/"
+                <button
+                  onClick={handleClick}
                   style={{ textDecoration: "none" }}
                   className="btn btn-outline-primary"
                 >
                   Book a Call
-                </Link>
+                </button>
               </h3>
             </div>
 

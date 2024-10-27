@@ -68,6 +68,15 @@ const ImageSlider = () => {
       next.removeEventListener("click", handleNextClick);
       prev.removeEventListener("click", handlePrevClick);
     };
+  }, [data]);
+
+  //img object preloading
+
+  useEffect(() => {
+    data.forEach((item) => {
+      const img = new Image();
+      img.src = item.img;
+    });
   }, []);
 
   return (

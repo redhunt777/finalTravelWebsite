@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar/NavBar";
-import "./hero.css";
+import style from "./hero.module.css";
 import { motion } from "framer-motion";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -21,13 +21,26 @@ const Hero = () => {
   return (
     <>
       <div
-        className="mainContainer"
+        className={style.mainContainer}
         style={{
           position: "relative",
           overflow: "hidden",
         }}
       >
         {/* Use <video> tag to include the local india.mp4 video */}
+        <img
+          src="/BackGImg.png"
+          alt="backGroundImage"
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            zIndex: -2,
+          }}
+        />
         <video
           autoPlay
           loop
@@ -52,23 +65,23 @@ const Hero = () => {
         <NavBar />
 
         <motion.div
-          className="heroContainer"
+          className={style.heroContainer}
           variants={variants}
           initial="hidden"
           animate="visible"
         >
-          <motion.div className="heroTitle" variants={variants}>
+          <motion.div className={style.heroTitle} variants={variants}>
             <h1>EXPLORE</h1>
             <h3>THE GLOBE</h3>
           </motion.div>
-          <motion.div className="heroMainPara" variants={variants}>
+          <motion.div className={style.heroMainPara} variants={variants}>
             <p>
               Explore tailored travel experiences for individual, corporate, and
               group trips, featuring a personalized trip calculator to design
               your perfect adventure.
             </p>
           </motion.div>
-          <motion.div className="heroBtn" variants={variants}>
+          <motion.div className={style.heroBtn} variants={variants}>
             <button className="btn btn-outline-light" onClick={handleExplore}>
               Explore
             </button>
