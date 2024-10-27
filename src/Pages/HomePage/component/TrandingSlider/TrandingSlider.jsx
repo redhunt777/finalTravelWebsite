@@ -125,7 +125,12 @@ const TrandingSlider = () => {
       <div className={styles.sliderContainer}>
         <Swiper
           loop={true}
-          style={{ height: "32rem", paddingLeft: "10px", paddingRight: "10px" }}
+          style={{
+            height: "32rem",
+            paddingLeft: "10px",
+            paddingRight: "10px",
+            paddingBottom: "10px",
+          }}
           spaceBetween={30}
           pagination={{ clickable: true }}
           navigation={{
