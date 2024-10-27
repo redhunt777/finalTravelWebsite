@@ -129,7 +129,6 @@ const TrandingSlider = () => {
             height: "32rem",
             paddingLeft: "10px",
             paddingRight: "10px",
-            paddingBottom: "10px",
           }}
           spaceBetween={30}
           pagination={{ clickable: true }}
