@@ -18,6 +18,7 @@ import { useState, useEffect } from "react";
 const groupTripsData = {
   pachmarhi: {
     title: "Pachmarhi – The Queen of Satpura",
+    upcomingTrip: "none",
     description: `
       Embark on an enchanting group trip to Pachmarhi, lovingly known as "The Queen of Satpura," with Btech TravelWala as your trusted companion. 
       This picturesque destination, nestled within the Satpura Range in central India, promises a breathtaking journey through lush forests, serene waterfalls, and awe-inspiring viewpoints. 
@@ -80,6 +81,7 @@ const groupTripsData = {
 
   kerala: {
     title: "Kerala – God's Own Country",
+    upcomingTrip: "none",
     description: `
       Experience the enchanting beauty of Kerala on a delightful group trip with Btech TravelWala as your reliable guide. 
       Renowned for its lush landscapes, serene backwaters, and rich cultural heritage, Kerala is truly a paradise waiting to be explored. 
@@ -147,6 +149,7 @@ const groupTripsData = {
 
   goa: {
     title: "Goa – The Pearl of the Indian Ocean",
+    upcomingTrip: "none",
     description: `
       Embark on an exhilarating group trip to Goa, the vibrant coastal paradise, with Btech TravelWala as your trusted companion. 
       This tropical destination, famous for its golden beaches, lively nightlife, and rich cultural heritage, promises an unforgettable adventure. 
@@ -214,6 +217,7 @@ const groupTripsData = {
 
   ladakh: {
     title: "Ladakh – The Land of High Passes",
+    upcomingTrip: "none",
     description: `
       Discover the rugged beauty of Ladakh on an unforgettable group trip with Btech TravelWala as your expert guide. 
       Known for its stunning landscapes, high-altitude deserts, and serene monasteries, Ladakh offers a truly unique adventure. 
@@ -281,6 +285,7 @@ const groupTripsData = {
 
   kashmir: {
     title: "Kashmir – Paradise on Earth",
+    upcomingTrip: "none",
     description: `
       Experience the breathtaking beauty of Kashmir on an unforgettable group trip with Btech TravelWala as your expert guide. 
       Known for its stunning landscapes, lush gardens, and serene houseboats, Kashmir is a true paradise waiting to be explored. 
@@ -345,6 +350,7 @@ const groupTripsData = {
 
   manali: {
     title: "Manali – The Adventure Capital of India",
+    upcomingTrip: "15th December 2022",
     description: `
       Join us on an exhilarating group trip to Manali, the adventure capital of India, with Btech TravelWala as your trusted travel partner. 
       Nestled in the breathtaking Himalayas, Manali is a paradise for thrill-seekers and nature lovers alike. 

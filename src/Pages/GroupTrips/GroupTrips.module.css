@@ -3,7 +3,14 @@
     height: 100px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
+}
 
+.upcomingTrip{
+    background-color: #d897f0;
+    padding: 10px 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600 ;
+    color: #fff;
 }
 
 .GroupTripPage {
@@ -178,4 +185,36 @@
     .policiesSection h2 {
         font-size: 0.9rem;
     }
+
+    .upcomingTrip{
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
 }
+
+@media (max-width: 576px) {
+    .upcomingTrip{
+        padding: 10px 5px;
+        font-size: 0.7rem;
+    }
+
+    .upcomingTrip button{
+        font-size: 0.6rem;
+        margin-left: 5px !important;
+        padding: 5px 5px !important; 
+    }
+}
+
+@media (max-width: 350px) {
+    .upcomingTrip{
+        padding: 10px 2px;
+        font-size: 0.6rem;
+    }
+
+    .upcomingTrip button{
+        font-size: 0.5rem;
+        margin-left: 5px !important;
+        padding: 5px 5px !important; 
+    }
+}
+

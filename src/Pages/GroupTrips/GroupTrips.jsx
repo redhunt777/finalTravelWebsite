@@ -4,7 +4,6 @@ import style from "./GroupTrips.module.css";
 import SkeletonImage from "./components/Itenary/SkeletonImage";
 import NavBar from "../HomePage/component/Hero/NavBar/NavBar";
 import Footer from "../HomePage/component/Footer/Footer";
-import { Link } from "react-router-dom";
 
 const GroupTripPage = ({ groupTripsData }) => {
   const { location } = useParams();
@@ -17,6 +16,7 @@ const GroupTripPage = ({ groupTripsData }) => {
 
   // for itinerary dropdown
   const [openDays, setOpenDays] = useState([]);
+  const [showUpcoming, setShowUpcoming] = useState(true);
 
   // for policies dropdown
   const [showBookingPolicy, setShowBookingPolicy] = useState(false);
@@ -32,6 +32,10 @@ const GroupTripPage = ({ groupTripsData }) => {
     );
   };
 
+  const handleClose = () => {
+    setShowUpcoming(false);
+  };
+
   // Get the image sources from tripData
   const imageSources = tripData ? tripData.images : [];
 
@@ -39,6 +43,41 @@ const GroupTripPage = ({ groupTripsData }) => {
     <>
       <div className={style.container}></div>
       <NavBar />
+      {showUpcoming &&
+        (tripData.upcomingTrip !== "none" ? (
+          <div className={style.upcomingTrip}>
+            The trip starts on: {tripData.upcomingTrip}
+            <button
+              onClick={handleClick}
+              style={{
+                textDecoration: "none",
+                marginLeft: "20px",
+              }}
+              className="btn btn-outline-light"
+            >
+              Book a Call
+            </button>
+            <button
+              type="button"
+              style={{ float: "right" }}
+              className="btn-close"
+              aria-label="Close"
+              onClick={handleClose}
+            ></button>
+          </div>
+        ) : (
+          <div className={style.upcomingTrip}>
+            Trip Comming Soon!
+            <button
+              type="button"
+              style={{ float: "right" }}
+              className="btn-close"
+              aria-label="Close"
+              onClick={handleClose}
+            ></button>
+          </div>
+        ))}
+
       <div className={style.GroupTripPage}>
         {/* SkeletonImage with passed image sources */}
         <SkeletonImage images={imageSources} />
