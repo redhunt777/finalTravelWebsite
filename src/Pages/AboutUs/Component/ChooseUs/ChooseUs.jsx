@@ -12,14 +12,13 @@ const ChooseUs = () => {
           Introducing<span>Btech TravelWala</span>
         </h1>
         <p className={style.text}>
-          We’re a dedicated team of seasoned travelers who have explored diverse
-          destinations around the world, learning from both the joys and
-          challenges of travel. Our experiences have inspired us to create a
-          platform that enhances your adventures. We’re here to assist you in
-          planning your trip, booking tickets, and discovering the best places
-          to stay. With our expertise, we aim to make your travel experience
-          seamless and memorable, helping you create unforgettable memories
-          along the way.
+          Btech Travelwala is a premier AI travel company dedicated to creating
+          unforgettable journeys tailored specifically for college students and
+          young travelers. By blending adventure, education, and affordability,
+          we offer unique, AI-driven itineraries and immersive experiences that
+          go beyond the typical trip. Our mission is to make travel enriching,
+          accessible, and hassle-free, ensuring memorable journeys across
+          vibrant destinations.
         </p>
       </div>
     </div>

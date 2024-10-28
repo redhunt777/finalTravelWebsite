@@ -13,10 +13,10 @@ const Footer = () => {
           <div className={`${style.container} ${style.paddingRight}`}>
             <h3>BtechTravelWala.com</h3>
             <p>
-              BTech TravelWala is a travel company that provides a wide range of
-              travel services to its customers like group tours, custom tours,
-              and corporate tours. We also provide travel packages for various
-              destinations.
+              BTech TravelWala is a AI travel company that provides a wide range
+              of travel services to its customers like group tours, custom
+              tours, and corporate tours. We also provide travel packages for
+              various destinations.
             </p>
             <div className={style.logosContainer}>
               <div className={style.logo}>
@@ -61,8 +61,12 @@ const Footer = () => {
           <div className={style.container}>
             <h4>Information</h4>
             <ul>
-              <li>Terms and Condition</li>
-              <li>Privacy Policy</li>
+              <li>
+                <Link to="/terms-and-conditions">Terms and Condition</Link>
+              </li>
+              <li>
+                <Link to="/privacy-policy">Privacy Policy</Link>
+              </li>
             </ul>
           </div>
           <div className={style.container}>

@@ -9,6 +9,8 @@ import GroupTripPage from "./Pages/GroupTrips/GroupTrips";
 import ScrollToTop from "./ScrollToTop";
 import CorporatePage from "./Pages/CorporatePage/CorporatePage";
 import Error404Page from "./Pages/Error/Error404Page";
+import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
+import TermsAndCondition from "./Pages/TermsAndCondition/TermsAndCondition";
 
 // JSON object containing trip details
 const groupTripsData = {
@@ -465,6 +467,11 @@ function App() {
         <Route
           path="/blog/:id"
           element={<BlogPostPage slideData={slideData} />}
+        />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route
+          path="/terms-and-conditions"
+          element={<TermsAndCondition></TermsAndCondition>}
         />
         <Route path="*" element={<Error404Page></Error404Page>} />
       </Routes>
