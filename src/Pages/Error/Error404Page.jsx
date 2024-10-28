@@ -7,6 +7,7 @@ const Error404Page = () => {
   return (
     <>
       <div className={style.mainContainer}>
+        <div className={style.container1}></div>
         <NavBar></NavBar>
         <div className={style.container}>
           <div className={style.imgContainer}>

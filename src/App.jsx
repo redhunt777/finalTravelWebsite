@@ -11,6 +11,8 @@ import CorporatePage from "./Pages/CorporatePage/CorporatePage";
 import Error404Page from "./Pages/Error/Error404Page";
 import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
 import TermsAndCondition from "./Pages/TermsAndCondition/TermsAndCondition";
+import UpcomingTripCard from "./Components/UpcomingTripCard";
+import { useState, useEffect } from "react";
 
 // JSON object containing trip details
 const groupTripsData = {
@@ -448,8 +450,33 @@ const slideData = [
 ];
 
 function App() {
+  const [showUpcomingTripCard, setShowUpcomingTripCard] = useState(false);
+
+  const handleClose = () => {
+    setShowUpcomingTripCard(false);
+  };
+
+  useEffect(() => {
+    // Check if the component has already been shown in the current session
+    const hasShown = sessionStorage.getItem("hasShownUpcomingTripCard");
+
+    if (!hasShown) {
+      // Show the component with a delay and set flag in session storage
+      const timer = setTimeout(() => {
+        setShowUpcomingTripCard(true);
+        sessionStorage.setItem("hasShownUpcomingTripCard", "true");
+      }, 2000);
+
+      return () => clearTimeout(timer); // Clean up timer on unmount
+    }
+  }, []);
+
   return (
     <BrowserRouter>
+      {showUpcomingTripCard && (
+        <UpcomingTripCard handleClose={handleClose}></UpcomingTripCard>
+      )}
+      {/* Conditionally render */}
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />

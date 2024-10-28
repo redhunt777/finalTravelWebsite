@@ -7,6 +7,7 @@ const TermsAndCondition = () => {
   return (
     <>
       <div className={style.mainContainer}>
+        <div className={style.container1}></div>
         <NavBar></NavBar>
         <div className={style.textContainer}>
           <h1>Terms and Condition</h1>

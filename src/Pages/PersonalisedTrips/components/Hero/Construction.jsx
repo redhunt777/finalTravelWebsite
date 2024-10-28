@@ -5,6 +5,7 @@ import NavBar from "../../../HomePage/component/Hero/NavBar/NavBar";
 const Construction = () => {
   return (
     <div className={style.mainContainer}>
+      <div className={style.container1}></div>
       <NavBar />
       <div className={style.container}>
         <div className={style.img1}>
