@@ -37,10 +37,8 @@ const Links = ({ state, handleClick }) => {
       subLinks: [
         { title: "Mumbai", url: "/group-trips/mumbai" },
         { title: "Goa", url: "/group-trips/goa" },
-        { title: "Ladakh", url: "/group-trips/ladakh" },
-        { title: "Kerala", url: "/group-trips/kerala" },
-        { title: "Kashmir", url: "/group-trips/kashmir" },
-        { title: "Manali", url: "/group-trips/manali" },
+        { title: "Pachmarhi", url: "/group-trips/panchmarhi" },
+        { title: "Udaipur", url: "/group-trips/udaipur" },
       ],
     },
     { title: "About", url: "/about" },

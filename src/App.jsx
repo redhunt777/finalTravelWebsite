@@ -14,7 +14,6 @@ import TermsAndCondition from "./Pages/TermsAndCondition/TermsAndCondition";
 import UpcomingTripCard from "./Components/UpcomingTripCard";
 import { useState, useEffect } from "react";
 
-// JSON object containing trip details
 const groupTripsData = {
   mumbai: {
     title: "Mood Indigo and Mumbai Darshan",
@@ -94,71 +93,58 @@ const groupTripsData = {
     ],
   },
 
-  kerala: {
-    title: "Kerala – God's Own Country",
+  panchmarhi: {
+    title: "Panchmarhi – The Queen of Satpura",
     upcomingTrip: "none",
     price: "none",
-    description: `
-      Experience the enchanting beauty of Kerala on a delightful group trip with Btech TravelWala as your reliable guide. 
-      Renowned for its lush landscapes, serene backwaters, and rich cultural heritage, Kerala is truly a paradise waiting to be explored. 
-      We ensure all your travel logistics are taken care of so you can focus on enjoying the journey.
-      Start your adventure in Munnar, exploring its famed tea gardens and breathtaking natural beauty. 
-      A memorable overnight houseboat cruise through the tranquil backwaters of Alleppey awaits you, filled with delicious local cuisine and group activities. 
-      As the sun sets, unwind with a bonfire on the beach, complete with local music and cultural experiences, while creating lasting bonds with fellow travellers.
-
-      From relaxing beach days at Varkala to exploring the vibrant markets of Cochin, every moment in Kerala will be a cherished memory. 
-      Join Btech TravelWala for an unforgettable journey through God's Own Country!`,
+    description:
+      'Pachmarhi, the "Queen of Satpura," is a picturesque hill station with rich natural and cultural allure. Known for its ancient caves, captivating waterfalls, and stunning viewpoints, Pachmarhi offers an ideal blend of history and nature. Start by exploring the mystical Pandav Caves and the remarkable cave pavements estimated to be over 10,000 years old. These historical sites give a glimpse into ancient civilizations and local legends. Nature lovers will be enchanted by the area’s waterfalls, such as the grand Rajat Prapat and the popular Bee Fall, perfect for cooling off in the midst of lush landscapes. The fairy-like Apsara Falls, Dutchess Fall, and Little Fall add to the tranquil experience, offering picturesque spots to relax and enjoy nature’s splendor. Adventure seekers and pilgrims alike can hike up to Chauragarh, especially vibrant during Mahashivratri, and take in the breathtaking views from Dhupgarh, the highest peak in the Satpura Range. The scenic beauty continues with other notable points like Handi Khoh, a deep valley, and viewpoints such as Pachmarhi Hill, Rajendra Giri, and Lady Robertson’s View, each offering unique perspectives of Pachmarhi’s landscape. For those seeking a touch of adventure, activities like paragliding and boating are available, making Pachmarhi a well-rounded destination for history, nature, and thrill in one memorable visit.',
     itinerary: [
       {
         day: 1,
-        title: "Departure for Kerala",
+        title: "Indore to Pachmarhi",
         activities: [
-          "Evening: Departure from your location to Cochin by train/flight, meet your fellow travelers.",
-          "Overnight journey.",
+          "We will assemble at Radisson Square, indore at night 10:00PM. After meeting with other group members and initial introduction, we will depart for Pachmarhi.",
+          "Travelers who wants to join from Bhopal, Dewas and Pipariya, kindly contact the team.",
         ],
       },
       {
         day: 2,
-        title: "Arrival in Cochin | Munnar Exploration",
+        title: "Pachmarhi Sightseeing",
         activities: [
-          "Morning: Arrival in Cochin, and transfer to Munnar.",
-          "Afternoon: Check-in to your resort, visit Munnar Tea Gardens and Eravikulam National Park.",
-          "Evening: Group bonfire with local music and cultural activities.",
-          "Overnight Stay: Stay at the resort.",
+          "Arriving Pachmarhi in the morning, check-in to the Hotel/Camps, Rooms will be alloted on a sharing basis.",
+          "After getting refreshed we'll start our sightseeing tour of Pachmarhi.",
+          "Visit: Pandav Caves, Gupt and Bada Mahadev, Handi Khoh and chaura garh trek (optional).",
+          "Enjoy Musical night and Bonfire at night.",
+          "Dinner and overnight stay in camps/hotel.",
+          "Meals: Breakfast and Dinner included.",
         ],
       },
       {
         day: 3,
-        title: "Alleppey Houseboat | Backwaters",
+        title: "Gypsy Sightseeing",
         activities: [
-          "Morning: Drive to Alleppey for an overnight houseboat cruise through the serene backwaters.",
-          "Afternoon: Enjoy local Kerala delicacies onboard and participate in group activities.",
-          "Evening: Dinner and night stay on the houseboat.",
+          "Wake up in the morning and have breakfast.",
+          "We will board the gypsy and start our sightseeing tour of Pachmarhi.",
+          "Visit: Bee Fall, Reechagarh, Dhoopgarh (the highest sunset point of madhya pradesh), Jata Shankar.",
+          "Enjoy Musical night and have a special dinner and then we will proceed back towards Indore.",
+          "Meals: Breakfast and Dinner included.",
         ],
       },
       {
         day: 4,
-        title: "Varkala Beach | Kovalam",
+        title: "Reached Indore",
         activities: [
-          "Morning: Post breakfast, check-out and drive to Varkala Beach for a relaxing beach day.",
-          "Afternoon: Head to Kovalam for beach time and sunset views.",
-          "Evening: Return to Cochin for a final group dinner.",
-        ],
-      },
-      {
-        day: 5,
-        title: "Departure from Kerala",
-        activities: [
-          "Morning: Check out from your hotel and transfer to Cochin for departure.",
-          "The Kerala trip ends, but memories remain everlasting!",
+          "Arrival in Indore in the morning.",
+          "Trip ends with unforgettable memories of Pachmarhi.",
         ],
       },
     ],
     images: [
-      "/kerala-pic1.jpg",
-      "/kerala-pic2.jpg",
-      "/kerala-pic3.jpg",
-      "/kerala-pic4.jpg",
+      "/Pachmarhi_valley_Madhya_Pradesh_INDIA.jpg",
+      "/Bee_Fall.jpg",
+      "/Chouragarh_temple.jpg",
+      "/Sunset_Point.jpeg",
     ],
   },
 
@@ -249,206 +235,74 @@ const groupTripsData = {
     ],
   },
 
-  ladakh: {
-    title: "Ladakh – The Land of High Passes",
+  udaipur: {
+    title: "Udaipur and Mount Abu",
     upcomingTrip: "none",
     price: "none",
     description: `
-      Discover the rugged beauty of Ladakh on an unforgettable group trip with Btech TravelWala as your expert guide. 
-      Known for its stunning landscapes, high-altitude deserts, and serene monasteries, Ladakh offers a truly unique adventure. 
-      Btech TravelWala will handle all the details, ensuring a stress-free and enjoyable journey for you and your companions.
-
-      Kick off your trip with a welcome bonfire at your Leh guesthouse, creating a warm atmosphere of camaraderie. 
-      Experience the thrill of a guided bike tour across some of the world’s highest motorable passes, including Khardung La. 
-      As night falls, unwind with a music night under Ladakh’s famously clear starlit sky, complete with group activities and live performances by your fellow travellers.
-
-      During your stay, explore iconic sites like Pangong Lake, Nubra Valley, and the Magnetic Hill. 
-      Let Btech TravelWala lead you through this awe-inspiring region, where every moment in the "Land of High Passes" will become a cherished memory.`,
+      Udaipur, often called the "Venice of the East," is a picturesque city in Rajasthan known for its enchanting lakes, majestic palaces, and vibrant culture. Founded by Maharana Udai Singh II in 1559, Udaipur's royal heritage is evident in its grand architecture and historic sites. The City Palace complex, perched along Lake Pichola, is a breathtaking example of intricate Rajput artistry, while Jag Mandir and Jag Niwas (Lake Palace) add to the city’s charm with their island settings. Udaipur’s markets, like Hathi Pol and Bada Bazaar, are bustling with local crafts, including traditional Rajasthani jewelry, textiles, and miniature paintings. Visitors can enjoy serene boat rides on Lake Pichola and Fateh Sagar Lake, each providing stunning sunset views. Beyond its architectural beauty, Udaipur is also a gateway to Rajasthan’s rich cultural heritage, offering festivals, folk music, and dance that bring the city’s history to life. 
+      Nestled in the Aravalli Range, Mount Abu is Rajasthan's only hill station and a refreshing retreat from the desert heat. Known for its cool climate and lush greenery, Mount Abu is dotted with forests, rivers, and waterfalls. The Dilwara Temples, an architectural masterpiece, showcase detailed marble carvings and serve as a spiritual center for Jain pilgrims. Nakki Lake, a tranquil water body surrounded by hills, offers paddle boating and scenic views. For breathtaking panoramas of the Aravalli range, visitors can head to Guru Shikhar, the highest peak in Rajasthan, or enjoy a peaceful walk in Peace Park, which features beautifully maintained gardens and meditative spaces. With its serene environment, Mount Abu provides a unique experience in Rajasthan, combining natural beauty with cultural landmarks and a touch of adventure, making it a popular destination for both locals and tourists alike.`,
     itinerary: [
       {
         day: 1,
-        title: "Departure for Ladakh",
+        title: "Departure for Udaipur",
         activities: [
-          "Morning: Flight to Leh. Arrival and transfer to your guesthouse. Rest and acclimatize.",
-          "Evening: Welcome bonfire and group meet-up with introductions.",
-          "Overnight Stay: Stay at the guesthouse in Leh.",
+          "Our Journey will start from Indore at railway station according to train schedule to catch Veerbhumi Chittaurgarh Exp(19315)",
+          "Overnight Stay: Overnight journey in train",
         ],
       },
       {
         day: 2,
-        title: "Leh City Tour | Shanti Stupa",
+        title: "Mount Abu Sightseeing",
         activities: [
-          "Morning: Post-breakfast, explore Leh Palace, Shanti Stupa, and Magnetic Hill.",
-          "Afternoon: Visit the iconic Hemis Monastery and Thiksey Monastery.",
-          "Evening: Dinner at the guesthouse, with group activities and stargazing under Ladakh's clear sky.",
+          "We will reach udaipur early in the moring (around 4:15AM).",
+          "Upon reaching Udaipur transfer to Mount Abu (2-3 hours Journey).",
+          "Check in to the hotel, freshen up and have breakfast.",
+          "After that visit - Nakki Lake, Dilwara Temple, Sunset Point.",
+          "After sightseeing, we move back to the Hotel at Mount Abu.",
+          "Enjoy Musical night.",
+          "Meal: Breakfast and Dinner",
+          "Stay: Hotel at Mount Abu",
         ],
       },
       {
         day: 3,
-        title: "Khardung La Pass | Nubra Valley",
+        title: "Udaipur Sightseeing First Day",
         activities: [
-          "Morning: Early departure for Khardung La, one of the highest motorable roads in the world.",
-          "Afternoon: Head to Nubra Valley, visit Diskit Monastery, and ride Bactrian camels at the sand dunes of Hunder.",
-          "Evening: Return to Leh, dinner, and overnight stay.",
+          "Early morning transfer to Udaipur (2-3 hours Journey).",
+          "Check in to the hotel, freshen up and have breakfast.",
+          "After that visit - Karni Mata Temple, Luvkush Vatika, City Palace, Lake Pichola, Bagore ki Haveli, Gangaur Ghat, Ambrai Ghat and the local market.",
+          "After sightseeing, we move back to the Hotel at Udaipur.",
+          "Dinner and overnight stay.",
+          "Meal: Breakfast and Dinner",
+          "Stay: Hotel at Udaipur",
         ],
       },
       {
         day: 4,
-        title: "Pangong Lake Excursion",
+        title: "Udaipur Sightseeing Second Day",
         activities: [
-          "Morning: Depart for Pangong Lake, enjoy the scenic drive and picturesque landscapes.",
-          "Day: Explore the stunning blue waters and surrounding mountains of Pangong Lake.",
-          "Evening: Return to Leh, farewell dinner with group sharing experiences and memories.",
+          "Early morning enjoy pool, freshen up, and checkout from hotel.",
+          "After breakfast, visit - Bahubali hills, Fateh Sagar Lake, Sajjangarh Palace, Saheliyon ki Bari, Nimach Mata Temple (Ropeway), Sajjangarh Wildlife Sanctuary.",
+          "After sightseeing, we move back to the Hotel at Udaipur railway station at 7:00PM to catch Veerbhumi Chittaurgarh Express (19316) departed by 08:20 PM. ",
+          "Overnight journey in train.",
+          "Meal: Breakfast",
         ],
       },
       {
         day: 5,
-        title: "Departure from Ladakh",
+        title: "Reach Indore",
         activities: [
-          "Morning: Check out from the guesthouse, quick souvenir shopping.",
-          "Departure: Flight back home, concluding your memorable journey through Ladakh!",
+          "Arrival at Indore railway station in the morning.",
+          "Trip ends with unforgettable memories of Udaipur and Mount Abu.",
         ],
       },
     ],
     images: [
-      "ladakh-pic1.jpg",
-      "ladakh-pic2.jpg",
-      "ladakh-pic3.jpg",
-      "ladakh-pic4.jpg",
-    ],
-  },
-
-  kashmir: {
-    title: "Kashmir – Paradise on Earth",
-    upcomingTrip: "none",
-    price: "none",
-    description: `
-      Experience the breathtaking beauty of Kashmir on an unforgettable group trip with Btech TravelWala as your expert guide. 
-      Known for its stunning landscapes, lush gardens, and serene houseboats, Kashmir is a true paradise waiting to be explored. 
-      We ensure all your travel logistics are taken care of, allowing you to focus on enjoying every moment.
-
-      Begin your adventure on Dal Lake, where you'll stay on a traditional houseboat and enjoy a scenic shikara ride. 
-      Explore the stunning meadows of Gulmarg, ride the Gondola for breathtaking views, and enjoy a bonfire night filled with Kashmiri folk music and local delicacies. 
-      Spend a day in Pahalgam, experiencing the pristine Betaab Valley and indulging in thrilling pony rides through picturesque landscapes.
-
-      From the beautiful Mughal Gardens of Srinagar to the vibrant local markets, every moment in Kashmir will create lasting memories. 
-      Join Btech TravelWala for a mesmerizing journey through the Paradise on Earth!`,
-    itinerary: [
-      {
-        day: 1,
-        title: "Departure for Kashmir",
-        activities: [
-          "Morning: Flight to Srinagar. Arrival and transfer to a traditional houseboat on Dal Lake.",
-          "Evening: Group meet-up, shikara ride on Dal Lake, and dinner on the houseboat.",
-        ],
-      },
-      {
-        day: 2,
-        title: "Gulmarg Exploration",
-        activities: [
-          "Morning: Drive to Gulmarg, visit the meadows, and enjoy a Gondola ride for panoramic views of the Himalayas.",
-          "Evening: Return to Srinagar for a bonfire night with Kashmiri folk music and dinner.",
-        ],
-      },
-      {
-        day: 3,
-        title: "Pahalgam",
-        activities: [
-          "Morning: Full-day excursion to Pahalgam, explore the Betaab Valley, and enjoy a pony ride through the meadows.",
-          "Evening: Group dinner and overnight stay in Pahalgam.",
-        ],
-      },
-      {
-        day: 4,
-        title: "Mughal Gardens | Srinagar",
-        activities: [
-          "Morning: Visit the breathtaking Mughal Gardens of Srinagar (Nishat Bagh, Shalimar Bagh, and Chashme Shahi).",
-          "Afternoon: Free time for shopping in Srinagar’s vibrant markets.",
-          "Evening: Final group dinner at the houseboat.",
-        ],
-      },
-      {
-        day: 5,
-        title: "Departure from Srinagar",
-        activities: [
-          "Morning: Check out and transfer to Srinagar Airport for your return flight.",
-          "Trip ends, but Kashmir's magic stays in your heart!",
-        ],
-      },
-    ],
-    images: [
-      "kashmir-pic1.jpg",
-      "kashmir-pic2.jpg",
-      "kashmir-pic3.jpg",
-      "kashmir-pic4.jpg",
-    ],
-  },
-
-  manali: {
-    title: "Manali – The Adventure Capital of India",
-    upcomingTrip: "none",
-    price: "none",
-    description: `
-      Join us on an exhilarating group trip to Manali, the adventure capital of India, with Btech TravelWala as your trusted travel partner. 
-      Nestled in the breathtaking Himalayas, Manali is a paradise for thrill-seekers and nature lovers alike. 
-      We take care of all the arrangements, ensuring a seamless and memorable experience for you and your fellow travellers.
-
-      Kick off the trip with a welcome dinner at the resort, creating a sense of camaraderie among the group. 
-      Experience a range of adventure activities, from paragliding to river rafting, along with stunning treks through lush forests. 
-      As night falls, gather around a bonfire for a night of music, games, and sharing stories under the starry sky.
-
-      During your stay, explore iconic attractions like Solang Valley, Rohtang Pass, Hadimba Temple, and more. 
-      Let Btech TravelWala guide you through this beautiful journey, where every moment in Manali will be filled with excitement and unforgettable memories.`,
-    itinerary: [
-      {
-        day: 1,
-        title: "Departure for Manali",
-        activities: [
-          "Evening: Departure from your location to Manali by bus, group introductions, and interactions.",
-          "Overnight journey to Manali.",
-        ],
-      },
-      {
-        day: 2,
-        title: "Arrival in Manali | Adventure Activities",
-        activities: [
-          "Morning: Arrival in Manali, check-in at the resort, and freshen up.",
-          "Adventure Day: Engage in adventure activities such as paragliding, zorbing, and trekking in Solang Valley.",
-          "Evening: Welcome dinner and group activities at the resort.",
-        ],
-      },
-      {
-        day: 3,
-        title: "Rohtang Pass | Scenic Views",
-        activities: [
-          "Morning: Post-breakfast, head to Rohtang Pass for breathtaking views and snow activities.",
-          "Day: Explore nearby areas and enjoy scenic views.",
-          "Evening: Return to Manali, dinner, and bonfire night with music.",
-        ],
-      },
-      {
-        day: 4,
-        title: "Local Sightseeing | Hadimba Temple",
-        activities: [
-          "Morning: Visit Hadimba Temple, Vashisht Village, and the Manu Temple.",
-          "Afternoon: Explore Mall Road for shopping and local delicacies.",
-          "Evening: Farewell dinner, group sharing of experiences, and music night.",
-        ],
-      },
-      {
-        day: 5,
-        title: "Departure from Manali",
-        activities: [
-          "Morning: Check out from the resort, last-minute shopping, and departure back home.",
-          "The trip ends, but the memories of Manali will last forever!",
-        ],
-      },
-    ],
-    images: [
-      "manali-pic1.jpg",
-      "manali-pic2.jpg",
-      "manali-pic3.jpg",
-      "manali-pic4.jpg",
+      "/Mount_Abu.jpg",
+      "/Jagdish_Temple_(4).jpg",
+      "/20191207_City_Palace,_Udaipur_1701_7325.jpg",
+      "/View_of_Udaipur_from_City_Palace.jpg",
     ],
   },
 };

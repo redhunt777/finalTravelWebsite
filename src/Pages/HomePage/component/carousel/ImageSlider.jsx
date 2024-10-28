@@ -17,33 +17,24 @@ const data = [
   },
   {
     id: 2,
-    name: "Konarka Sun Temple",
-    des: "Marvel at the Konarka Sun Temple, a UNESCO World Heritage Site that stands as a testament to India's architectural brilliance. The temple, designed as a gigantic chariot with intricately carved wheels.",
-    img: "/konarksuntemple2.jpg",
+    name: "Panchmarhi",
+    linkTo: "/group-trips/panchmarhi",
+    des: " Explore the lush greenery and serene waterfalls of Panchmarhi, a hill station in Madhya Pradesh known for its natural beauty and rich biodiversity. ",
+    img: "/Sunset_Point.jpeg",
   },
   {
     id: 3,
     name: "Goa Beaches",
-    des: "Relax on the pristine beaches of Goa, where golden sands meet the azure waters of the Arabian Sea. Known for its vibrant nightlife, delicious seafood, and diverse water sports.",
+    linkTo: "/group-trips/goa",
+    des: "Relax on the pristine beaches of Goa, where golden sands meet the azure waters of the Arabian Sea. Known for its nightlife and water sports.",
     img: "/BeachFun.jpg",
   },
   {
     id: 4,
-    name: "Hawa Mahal",
-    des: "Visit the Hawa Mahal, or 'Palace of Winds,' in Jaipur, a stunning architectural marvel that reflects the grandeur of Rajputana. This five-story palace, adorned with intricately carved windows, ",
-    img: "/hawamahal2.jpg",
-  },
-  {
-    id: 5,
-    name: "Braj Holi in Mathura Vrindavan",
-    des: "Join the vibrant festivities of Braj Holi in Mathura and Vrindavan, where the spirit of celebration fills the air. Experience the joy of color as locals and visitors come together to play with hues,",
-    img: "/brajholi1.jpg",
-  },
-  {
-    id: 6,
-    name: "Shimla",
-    des: "Explore the picturesque hill station of Shimla, nestled in the Himalayas and known for its stunning landscapes and colonial architecture. The pleasant weather makes it a year-round getaway for tourists.",
-    img: "/shimla2.jpg",
+    name: "Udaipur and Mount Abu",
+    linkTo: "/group-trips/udaipur",
+    des: "Discover the royal heritage of Udaipur and the scenic beauty of Mount Abu. Explore the majestic palaces, tranquil lakes, and lush hills.",
+    img: "/20191207_City_Palace,_Udaipur_1701_7325.jpg",
   },
 ];
 
