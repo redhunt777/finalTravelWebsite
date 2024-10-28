@@ -62,7 +62,7 @@ const UpcomingTripCard = ({ handleClose }) => {
             blending cultural thrills with city exploration.
           </p>
           <a
-            href="/group-trips/mumbai"
+            href="/group-trips/manali"
             className="btn btn-primary"
             style={{ backgroundColor: "#d897f0", borderColor: "#d897f0" }}
           >
