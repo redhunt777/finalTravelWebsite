@@ -2,8 +2,9 @@
     position: absolute;
     height: 100px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.7);
 }
+
 
 .upcomingTrip{
     background-color: #d897f0;
@@ -205,6 +206,14 @@
         padding: 10px 20px;
         font-size: 0.9rem;
     }
+
+    .container{
+        position: absolute;
+        height: 100px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    
 }
 
 @media (max-width: 576px) {

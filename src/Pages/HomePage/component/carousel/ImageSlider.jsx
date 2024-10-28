@@ -5,13 +5,15 @@ import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const data = [
   {
     id: 1,
-    name: "Varanasi Ganga Arti",
-    des: "Experience the enchanting Ganga Arti at Varanasi, where devotees gather every evening to witness a mesmerizing ritual. This vibrant ceremony, performed on the banks of the holy Ganges, features chants,",
-    img: "/gangaarti.jpg",
+    name: "Mood Indigo and Mumbai Darshan",
+    linkTo: "/group-trips/mumbai",
+    des: "Mood Indigo is Asia's largest college cultural festival, held annually in Mumbai, celebrating creativity.",
+    img: "/IITMoodIndigo.jpg",
   },
   {
     id: 2,
@@ -23,7 +25,7 @@ const data = [
     id: 3,
     name: "Goa Beaches",
     des: "Relax on the pristine beaches of Goa, where golden sands meet the azure waters of the Arabian Sea. Known for its vibrant nightlife, delicious seafood, and diverse water sports.",
-    img: "/goabeach2.jpg",
+    img: "/BeachFun.jpg",
   },
   {
     id: 4,
@@ -98,7 +100,9 @@ const ImageSlider = () => {
             <div className="content">
               <div className="name">{item.name}</div>
               <div className="des">{item.des}</div>
-              <button className="btn btn-outline-light">See More</button>
+              <Link to={item.linkTo}>
+                <button className="btn btn-outline-light">See More</button>
+              </Link>
             </div>
           </div>
         ))}
