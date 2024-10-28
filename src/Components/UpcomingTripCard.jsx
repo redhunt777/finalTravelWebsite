@@ -61,8 +61,20 @@ const UpcomingTripCard = ({ handleClose }) => {
             Join us for an exciting trip to Mumbai and IIT’s Mood Indigo fest,
             blending cultural thrills with city exploration.
           </p>
+          <p
+            className="card-text"
+            style={{ fontFamily: `"Montserrat", sans-serif` }}
+          >
+            Enjoy an exclusive 10% discount for the first 10 bookings!
+          </p>
+          <p
+            className="card-text"
+            style={{ fontFamily: `"Montserrat", sans-serif` }}
+          >
+            Only On ₹11499/-
+          </p>
           <a
-            href="/group-trips/manali"
+            href="/group-trips/mumbai"
             className="btn btn-primary"
             style={{ backgroundColor: "#d897f0", borderColor: "#d897f0" }}
           >

@@ -46,7 +46,7 @@ const GroupTripPage = ({ groupTripsData }) => {
       {showUpcoming &&
         (tripData.upcomingTrip !== "none" ? (
           <div className={style.upcomingTrip}>
-            The trip starts on: {tripData.upcomingTrip}
+            The trip starts on {tripData.upcomingTrip}
             <button
               onClick={handleClick}
               style={{
@@ -86,7 +86,14 @@ const GroupTripPage = ({ groupTripsData }) => {
           <>
             <h1 className={style.h11}>{tripData.title}</h1>
             <p className={style.description}>{tripData.description}</p>
-
+            {tripData.price != "none" && (
+              <div className={style.priceSection}>
+                <h2>Price: ₹{tripData.price}</h2>
+                <p>
+                  *Enjoy an exclusive 10% discount for the first 10 bookings!
+                </p>
+              </div>
+            )}
             <h2 className={style.h22}>Itinerary</h2>
             <ul className={style.itineraryList}>
               {tripData.itinerary.map((item, index) => (
@@ -107,11 +114,14 @@ const GroupTripPage = ({ groupTripsData }) => {
                 </li>
               ))}
             </ul>
-
+            {/* Note Section */}
+            <hr />
+            Note: Day-wise schedule and itinerary is flexible and can be changed
+            . You will updated about the change prior to the trip.
             {/* For Booking: Book a call */}
             <div className={style.bookCall}>
               <h3>
-                Want to book this trip?{" "}
+                For More Information!{" "}
                 <button
                   onClick={handleClick}
                   style={{ textDecoration: "none" }}
@@ -121,7 +131,6 @@ const GroupTripPage = ({ groupTripsData }) => {
                 </button>
               </h3>
             </div>
-
             {/* Policies Section */}
             <div className={style.policiesSection}>
               <h2 onClick={() => setShowBookingPolicy(!showBookingPolicy)}>

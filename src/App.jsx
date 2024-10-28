@@ -16,77 +16,92 @@ import { useState, useEffect } from "react";
 
 // JSON object containing trip details
 const groupTripsData = {
-  pachmarhi: {
-    title: "Pachmarhi – The Queen of Satpura",
-    upcomingTrip: "none",
-    description: `
-      Embark on an enchanting group trip to Pachmarhi, lovingly known as "The Queen of Satpura," with Btech TravelWala as your trusted companion. 
-      This picturesque destination, nestled within the Satpura Range in central India, promises a breathtaking journey through lush forests, serene waterfalls, and awe-inspiring viewpoints. 
-      We take care of all the details, ensuring a seamless and enjoyable experience for you and your fellow travellers. 
-
-      The adventure begins with a lively pool party with a DJ at our resort, setting the tone for relaxation and camaraderie. 
-      A gypsy safari into the wilds of Satpura offers thrilling encounters with diverse wildlife and the region's natural beauty. 
-      As the sun sets, our music night under the starlit sky provides the perfect backdrop for dancing, live performances by group members, group games, and creating cherished memories. 
-
-      Throughout your stay, you'll partake in activities like nature walks, sightseeing, and visiting iconic spots such as Bee Fall, Dhoopgarh, Jata Shankar, and the beautiful trek to Chouragarh Mahadev. 
-      Let us lead you on this captivating journey to Pachmarhi, where "The Queen of Satpura" is ready to steal your heart, and you can focus on making unforgettable memories.`,
+  mumbai: {
+    title: "Mood Indigo and Mumbai Darshan",
+    upcomingTrip: "mid December",
+    price: "11499/-",
+    description:
+      'Mood Indigo and Mumbai Darshan together create an unforgettable blend of cultural immersion and urban exploration. As IIT Bombay’s premier cultural festival, Mood Indigo is a high-energy, multi-day extravaganza, drawing students and artists from across the country to showcase their talents in music, dance, arts, literature, and more. Known for its electrifying pro shows, thought-provoking panel discussions, and diverse workshops, Mood Indigo offers a one-of-a-kind experience of creativity, expression, and skill-building. Festival-goers are immersed in a world of lively competitions, interactive workshops, and incredible performances by renowned artists and inspiring personalities, making Mood Indigo a pinnacle of India’s collegiate cultural festivals. Adding to this festival spirit, Mumbai Darshan offers participants the chance to explore the vibrant city of Mumbai, known as the "City of Dreams" and a melting pot of history, culture, and modernity. From the iconic Gateway of India and Marine Drive’s coastal charm to the bustling markets of Colaba and the historic Prince of Wales Museum, Mumbai Darshan takes travelers on a whirlwind tour of the city’s most celebrated landmarks. This exploration also includes stops at Juhu Beach, Siddhivinayak Temple, and the Bandra-Worli Sea Link, showcasing the beauty and diversity of Mumbai’s iconic locations. The journey through Mumbai\'s famed streets, rich with cultural heritage and urban flair, complements the dynamic atmosphere of Mood Indigo, creating a truly immersive and memorable experience for all attendees.',
     itinerary: [
       {
         day: 1,
-        title: "Departure from Indore",
+        title: "Departure for Mumbai",
         activities: [
-          "10:00 PM: Departure from Indore (Reddision Square).",
-          "3:30 AM: Pickup from Bhopal (Lal Ghati & ISBT).",
-          "6:00 AM: Pickup from Pipariya.",
-          "Overnight bus journey with group meet-up, interaction, and introductions.",
+          "Assemble at the railway station to board the train (contact for train timings and details).",
+          "Overnight train journey with group meet-up, interaction, and introductions.",
         ],
       },
       {
         day: 2,
-        title: "Arrival at Pachmarhi | Satpura Exploration",
+        title: "Mumbai Arrival | Mood Indigo",
         activities: [
-          "8:00 AM: Arrival at Pachmarhi, freshen up, and enjoy a hearty breakfast.",
-          "Check-in: Complete check-in process at the hotel.",
-          "Sightseeing: Begin with a trek to Chauragarh Mahadev, followed by visits to Bada Mahadev, Gupt Mahadev, Green Valley, and Pachmarhi Lake.",
-          "Evening: Pool party, music night, and group activities at the resort.",
-          "Dinner: Delicious dinner at the resort, followed by an overnight stay.",
+          "Arrive at the railway station in Mumbai and transfer to IIT Bombay.",
+          "Check into IIT Bombay Hostel. Freshen up and have breakfast.",
+          "Enjoy Mood Indigo’s pre-fest activities.",
+          "Meals: Breakfast and Dinner included.",
         ],
       },
       {
         day: 3,
-        title: "Gypsy Safari | Waterfalls | Sunset Point",
+        title: "Mood Indigo | First Day",
         activities: [
-          "Morning: Wake-up call, breakfast, and check-out from the resort.",
-          "Adventure Day: A thrilling gypsy safari exploring Jata Shankar, Pandav Caves, Ramya Kund, Bee Fall, Jal Gali, Reechgarh, Adbhut Drashya, and Forest Museum.",
-          "Dhoopgarh: Conclude the day with a sunset view from the highest point in Satpura.",
-          "Evening: Dinner and prepare for an overnight return journey.",
+          "Competetions: Third bell eliminations, vogue, mantra, mehfil-e-indigo, agar, slam poetry, speak up, MI Tales, and many more.",
+          "Proshows AND Workshops: Tinder Dating ,Bollywood panel, Talent Fista, Drum Circle, YUGM, Afternite, Skateboarding workshop and many more.",
+          "Meals: Breakfast and Dinner included.",
         ],
       },
       {
         day: 4,
-        title: "Return Journey | Arrival at Home",
+        title: "Mood Indigo | Second day",
         activities: [
-          "2:00 AM: Arrival in Bhopal.",
-          "6:30 AM: Arrival in Indore. The trip ends, but memories last forever!",
+          "Competetions: Desi Beats, Double Trouble, Jester Fiesta, Conchord, Jam, Wordemort, Humour Us, and more.",
+          "Proshows AND Workshops: Improv comedy , Mallakhamb YouTubers Panel, Theatrefest, Physical Theatre Workshop, and many more.",
+          "Meals: Breakfast and Dinner included.",
+        ],
+      },
+      {
+        day: 5,
+        title: "Mood Indigo | Third day",
+        activities: [
+          "Competetions- Indigo Saga,trashion, Speak up, MI Tales, Mime Time, Monostrokes Sanskriti, MIGT finals, Virtuoso and many more",
+          "Proshows and Workshop- The trend titans, Surprise element Bollywood Panel, Dance Fest, Salsa, Bhangra Show.. AND MANY MORE EVENTS",
+          "Meals: Breakfast and Dinner included.",
+        ],
+      },
+      {
+        day: 6,
+        title: "Mumbai Darshan",
+        activities: [
+          "Check out from IIT Bombay.",
+          'Mumbai sightseeing tour via AC bus, visiting "Boating Club", "Gateway of India", "Bombay Stock Exchange (BSE)", "Prince of Wales Museum", "Jahangir Art Gallery", "Marine Drive", "Malabar Hill", "Mantralaya", "Wankhede Stadium", "Hanging Garden", "Boot House Racecourse", "Juhu Beach", "Tower of Silence", "Siddhivinayak Temple" and "Band Stand (Bandra)"',
+          "Meals: Breakfast and Dinner included.",
+        ],
+      },
+      {
+        day: 7,
+        title: "Return Journey",
+        activities: [
+          "Overnight train journey back to your location.",
+          "Arrive back home with memorable experiences and moments to share.",
         ],
       },
     ],
     images: [
-      "https://t4.ftcdn.net/jpg/https://t3.ftcdn.net/jpg/08/89/64/78/240_F_889647897_rPrpC40CieDETAco3Ahikp2xvhpMXWfn.jpg/95/32/37/240_F_895323772_yzvVND6WWEoRtqvxM6C4Ug3syTWlQ3fG.jpg",
-      "https://t3.ftcdn.net/jpg/03/52/43/04/240_F_352430463_uuCQ17Ylpj3AEzwYME5aYdlNlSTI39uo.jpg",
-      "https://encrypted-tbn0.gstatic.com/imagehttps://t3.ftcdn.net/jpg/08/89/64/80/240_F_889648060_HHmATuvnRNKdbHjGpyRG2JhNGWMZMdLV.jpgs?q=tbn:ANd9GcQNk6AEkxo1Z1lbp6o6viaoS8HiroPrkJ1LOOFMIJ016jNVrim3mO0TCCmMhSI_Yx7Bjf0&usqp=CAU",
-      "https://t4.ftcdn.net/jpg/04/51/47/71/240_F_451477199_hbq8ViM3mD41otBIRRylSMMprNkbeUuo.jpg",
+      "/IITMoodIndigo.jpg",
+      "/Marine_Drive.jpg",
+      "/Wankhede.jpg",
+      "/GatewayOfIndia.jpg",
     ],
   },
 
   kerala: {
     title: "Kerala – God's Own Country",
     upcomingTrip: "none",
+    price: "none",
     description: `
       Experience the enchanting beauty of Kerala on a delightful group trip with Btech TravelWala as your reliable guide. 
       Renowned for its lush landscapes, serene backwaters, and rich cultural heritage, Kerala is truly a paradise waiting to be explored. 
       We ensure all your travel logistics are taken care of so you can focus on enjoying the journey.
-
       Start your adventure in Munnar, exploring its famed tea gardens and breathtaking natural beauty. 
       A memorable overnight houseboat cruise through the tranquil backwaters of Alleppey awaits you, filled with delicious local cuisine and group activities. 
       As the sun sets, unwind with a bonfire on the beach, complete with local music and cultural experiences, while creating lasting bonds with fellow travellers.
@@ -150,6 +165,7 @@ const groupTripsData = {
   goa: {
     title: "Goa – The Pearl of the Indian Ocean",
     upcomingTrip: "none",
+    price: "none",
     description: `
       Embark on an exhilarating group trip to Goa, the vibrant coastal paradise, with Btech TravelWala as your trusted companion. 
       This tropical destination, famous for its golden beaches, lively nightlife, and rich cultural heritage, promises an unforgettable adventure. 
@@ -218,6 +234,7 @@ const groupTripsData = {
   ladakh: {
     title: "Ladakh – The Land of High Passes",
     upcomingTrip: "none",
+    price: "none",
     description: `
       Discover the rugged beauty of Ladakh on an unforgettable group trip with Btech TravelWala as your expert guide. 
       Known for its stunning landscapes, high-altitude deserts, and serene monasteries, Ladakh offers a truly unique adventure. 
@@ -286,6 +303,7 @@ const groupTripsData = {
   kashmir: {
     title: "Kashmir – Paradise on Earth",
     upcomingTrip: "none",
+    price: "none",
     description: `
       Experience the breathtaking beauty of Kashmir on an unforgettable group trip with Btech TravelWala as your expert guide. 
       Known for its stunning landscapes, lush gardens, and serene houseboats, Kashmir is a true paradise waiting to be explored. 
@@ -350,7 +368,8 @@ const groupTripsData = {
 
   manali: {
     title: "Manali – The Adventure Capital of India",
-    upcomingTrip: "15th December 2022",
+    upcomingTrip: "none",
+    price: "none",
     description: `
       Join us on an exhilarating group trip to Manali, the adventure capital of India, with Btech TravelWala as your trusted travel partner. 
       Nestled in the breathtaking Himalayas, Manali is a paradise for thrill-seekers and nature lovers alike. 

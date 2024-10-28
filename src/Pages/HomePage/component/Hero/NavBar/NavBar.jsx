@@ -15,7 +15,7 @@ const navLinks = [
   {
     title: "Group Trips",
     subLinks: [
-      { title: "Pachmarhi", url: "/group-trips/pachmarhi" },
+      { title: "Mumbai", url: "/group-trips/mumbai" },
       { title: "Goa ", url: "/group-trips/goa" },
       { title: "Ladakh", url: "/group-trips/ladakh" },
       { title: "Kerala", url: "/group-trips/kerala" },

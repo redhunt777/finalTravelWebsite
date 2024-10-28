@@ -13,6 +13,21 @@
     color: #fff;
 }
 
+.priceSection h2{
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 20px;
+    background-color: #d897f0;
+    color: #fff;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.priceSection h2 p{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
 .GroupTripPage {
     margin: auto;
     margin-bottom: 25px;
