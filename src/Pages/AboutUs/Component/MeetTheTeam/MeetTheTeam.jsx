@@ -25,7 +25,7 @@ const data = [
       "Suryansh Dey, CTO of Btech Travelwala, leverages his software development and expertise to drive AI-driven, personalized itineraries. His passion for integrating cutting-edge technology ensures Btech Travelwala stays at the forefront of tech-enabled travel, providing seamless, customized experiences for college students.",
   },
   {
-    img: "/MayankPalBlur.jpg",
+    img: "/MayankPal.jpg",
     name: "Mayank Pal",
     title: "Chief Marketing Officer",
     instagram: "https://www.instagram.com/mayankpal2408/",

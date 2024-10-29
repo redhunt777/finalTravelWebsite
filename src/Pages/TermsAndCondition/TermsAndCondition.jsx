@@ -14,7 +14,7 @@ const TermsAndCondition = () => {
           <h4>Introduction</h4>
           <p>
             These Terms and Conditions {`("Terms")`} govern the relationship
-            between you {`("Client" or "you")`} and Btech TravelWala Pvt. Ltd.
+            between you {`("Client" or "you")`} and Btech Travelwala Pvt. Ltd.
             {`("Btech Travelwala," "company," "we," or "us")`}. By booking any
             tour or service with Btech Travelwala, you agree to be bound by
             these Terms. Please read them carefully.
@@ -90,7 +90,7 @@ const TermsAndCondition = () => {
           </li>
           <h4>Itinerary Changes</h4>
           <li>
-            <strong>Modification by BtechTravelWala:</strong> We reserve the
+            <strong>Modification by BtechTravelwala:</strong> We reserve the
             right to alter itineraries, accommodations, or transportation
             arrangements due to unforeseen circumstances, including weather
             conditions, political unrest, or other factors beyond our control.
@@ -302,7 +302,7 @@ const TermsAndCondition = () => {
           <h4>Contact Information</h4>
           <li>
             For any inquiries or issues, please contact our customer service
-            team at connect@BtechTravelWala.in or 7004555717. Our office hours
+            team at connect@BtechTravelwala.in or 7004555717. Our office hours
             are 11.30 AM-9.30 PM.
           </li>
           <h4>Miscellaneous</h4>

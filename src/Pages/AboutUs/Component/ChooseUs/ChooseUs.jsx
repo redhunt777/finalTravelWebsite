@@ -9,7 +9,7 @@ const ChooseUs = () => {
       </div>
       <div className={style.textContainer}>
         <h1 className={style.heading}>
-          Introducing<span>Btech TravelWala</span>
+          Introducing<span>Btech Travelwala</span>
         </h1>
         <p className={style.text}>
           Btech Travelwala is a premier AI travel company dedicated to creating

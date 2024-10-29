@@ -5,6 +5,7 @@ import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
+import img2 from "../../../../assets/img2.jpg";
 import { Link } from "react-router-dom";
 
 const data = [
@@ -27,7 +28,7 @@ const data = [
     name: "Goa Beaches",
     linkTo: "/group-trips/goa",
     des: "Relax on the pristine beaches of Goa, where golden sands meet the azure waters of the Arabian Sea. Known for its nightlife and water sports.",
-    img: "/Doodhsagar_Fall.jpg",
+    img: img2,
   },
   {
     id: 4,

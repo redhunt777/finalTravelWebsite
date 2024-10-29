@@ -11,9 +11,9 @@ const Footer = () => {
       <div className={style.footerContainer}>
         <div className={style.footer}>
           <div className={`${style.container} ${style.paddingRight}`}>
-            <h3>BtechTravelWala.com</h3>
+            <h3>BtechTravelwala.com</h3>
             <p>
-              BTech TravelWala is a AI travel company that provides a wide range
+              BTech Travelwala is a AI travel company that provides a wide range
               of travel services to its customers like group tours, custom
               tours, and corporate tours. We also provide travel packages for
               various destinations.
@@ -83,9 +83,9 @@ const Footer = () => {
           <p>
             &copy; 2024{" "}
             <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>
-              BtechTravelWala.com
+              BtechTravelwala.com
             </Link>{" "}
-            | All Rights Reserved |<span> Designed by BtechTravelWala.com</span>
+            | All Rights Reserved |<span> Designed by BtechTravelwala.com</span>
           </p>
         </div>
       </div>
