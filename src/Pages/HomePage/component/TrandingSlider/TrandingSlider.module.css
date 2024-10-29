@@ -103,6 +103,13 @@
   color: #fff;
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+@media (max-width: 890px) and (min-width: 769px) {
+  .content {
+    height: 30rem; 
+  } 
+}
+
 @media (max-width: 640px) {
   .content {
     height: auto; 
@@ -114,7 +121,7 @@
 }
 
 @media (min-width: 641px) and (max-width: 768px) {
-  .content {
-    height: 25rem; 
-  }
+  /* .content {
+    height: auto; 
+  } */
 }

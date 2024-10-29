@@ -132,3 +132,12 @@
         font-size: 0.8rem;
     }
 }
+
+@media (max-width: 425px) {
+    .container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+}

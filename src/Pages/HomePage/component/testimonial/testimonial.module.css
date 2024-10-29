@@ -124,7 +124,7 @@
 @media screen and (max-width: 1024px) {
   .swiperClientMsg::before,
   .swiperClientMsg::after {
-    font-size: 4rem; 
+    font-size: 3rem; 
   }
   
   .swiperClientMsg::before {

@@ -147,7 +147,7 @@ const TrandingSlider = () => {
               slidesPerView: 2, // 2 slides on medium screens
               spaceBetween: 20,
             },
-            768: {
+            770: {
               slidesPerView: 3, // 3 slides on large screens
               spaceBetween: 30,
             },
