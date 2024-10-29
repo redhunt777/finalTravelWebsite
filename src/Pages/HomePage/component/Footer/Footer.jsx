@@ -72,10 +72,10 @@ const Footer = () => {
           <div className={style.container}>
             <h4>Contact</h4>
             <ul>
-              <li>187 XYZ Nagar, ABC road, Indore</li>
-              <li>Madhya Pradesh-457801</li>
-              <li>+91 7765467892</li>
-              <li>info@yourDomain.com</li>
+              <li>46, Pawanpuri colony, Palda road, Indore</li>
+              <li>Madhya pradesh-452001</li>
+              <li>+91 7004555717</li>
+              <li>BtechTravelwala.com</li>
             </ul>
           </div>
         </div>

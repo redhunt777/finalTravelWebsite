@@ -13,7 +13,7 @@ const data = [
     name: "Mood Indigo and Mumbai Darshan",
     linkTo: "/group-trips/mumbai",
     des: "Mood Indigo is Asia's largest college cultural festival, held annually in Mumbai, celebrating creativity.",
-    img: "/IITMoodIndigo.jpg",
+    img: "/Marine_Drive.jpg",
   },
   {
     id: 2,
@@ -27,14 +27,14 @@ const data = [
     name: "Goa Beaches",
     linkTo: "/group-trips/goa",
     des: "Relax on the pristine beaches of Goa, where golden sands meet the azure waters of the Arabian Sea. Known for its nightlife and water sports.",
-    img: "/BeachFun.jpg",
+    img: "/Doodhsagar_Fall.jpg",
   },
   {
     id: 4,
     name: "Udaipur and Mount Abu",
     linkTo: "/group-trips/udaipur",
     des: "Discover the royal heritage of Udaipur and the scenic beauty of Mount Abu. Explore the majestic palaces, tranquil lakes, and lush hills.",
-    img: "/20191207_City_Palace,_Udaipur_1701_7325.jpg",
+    img: "/Nakki_Lake.jpg",
   },
 ];
 

@@ -299,7 +299,7 @@ const groupTripsData = {
       },
     ],
     images: [
-      "/Mount_Abu.jpg",
+      "/Nakki_Lake.jpg",
       "/Jagdish_Temple_(4).jpg",
       "/20191207_City_Palace,_Udaipur_1701_7325.jpg",
       "/View_of_Udaipur_from_City_Palace.jpg",
