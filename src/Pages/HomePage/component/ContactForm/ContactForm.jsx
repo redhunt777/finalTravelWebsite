@@ -1,9 +1,13 @@
 import React, { useState, useRef } from "react";
 import styles from "./contactForm.module.css";
 import { motion } from "framer-motion";
+import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
   const [hasAnimated, setHasAnimated] = useState(false);
+  const [error, setError] = useState(null);
+  const [active, setActive] = useState(true);
+  const [success, setSuccess] = useState(false);
   const formRef = useRef(null);
   const FirstnameRef = useRef(null);
   const LastnameRef = useRef(null);
@@ -13,6 +17,7 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     if (
       FirstnameRef.current.value === "" ||
       LastnameRef.current.value === "" ||
@@ -20,15 +25,35 @@ const ContactForm = () => {
       mobileRef.current.value === "" ||
       messageRef.current.value === ""
     ) {
-      alert("Please fill all the fields");
+      setError("All fields are required to be filled");
       return;
     }
-    console.log(FirstnameRef.current.value);
-    console.log(LastnameRef.current.value);
-    console.log(emailRef.current.value);
-    console.log(mobileRef.current.value);
-    console.log(messageRef.current.value);
-    console.log(formRef.current);
+
+    const mobile = mobileRef.current.value;
+    const mobilePattern = /^[0-9]{10}$/;
+    if (!mobile.match(mobilePattern)) {
+      setError("Please enter a valid mobile number");
+      return;
+    }
+
+    setError(null);
+    setActive(false);
+    emailjs
+      .sendForm("service_yh5rp6z", "template_wdiayub", formRef.current, {
+        publicKey: "GLIFLP2sFpNmjPUS4",
+      })
+      .then(
+        () => {
+          setError(null);
+          setSuccess(true);
+          setActive(true);
+          formRef.current.reset();
+        },
+        (error) => {
+          setError(error);
+          setActive(true);
+        }
+      );
   };
 
   return (
@@ -82,29 +107,50 @@ const ContactForm = () => {
                 <div className={styles.name}>
                   <input
                     type="text"
+                    name="FirstName"
                     placeholder="First Name"
                     ref={FirstnameRef}
                   />
                   <input
                     type="text"
+                    name="LastName"
                     placeholder="Last Name"
                     ref={LastnameRef}
                   />
                 </div>
-                <input type="email" placeholder="Email" ref={emailRef} />
+                <input
+                  type="email"
+                  placeholder="Email"
+                  name="email"
+                  ref={emailRef}
+                />
                 <input
                   type="tel"
+                  id="phone"
                   placeholder="Mobile Number"
-                  pattern="[0-9]{10}"
+                  name="phone"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                   ref={mobileRef}
+                  required
                 />
                 <textarea
                   placeholder="Message"
+                  name="message"
                   rows={3}
                   ref={messageRef}
                 ></textarea>
+                {error && <p className={styles.error}>*{error}</p>}
+                {success && (
+                  <p className={styles.success}>
+                    Your message has been sent successfully!
+                  </p>
+                )}
                 <div>
-                  <button className="btn btn-success" onClick={handleSubmit}>
+                  <button
+                    className="btn btn-success"
+                    disabled={active ? false : true}
+                    onClick={handleSubmit}
+                  >
                     Send
                   </button>
                 </div>

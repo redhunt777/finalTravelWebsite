@@ -68,7 +68,6 @@ const ImageSlider = () => {
 
   useEffect(() => {
     data.forEach((item) => {
-      console.log(item.img);
       const img = new Image();
       img.src = item.img;
     });

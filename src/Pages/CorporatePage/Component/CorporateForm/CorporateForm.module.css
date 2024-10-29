@@ -25,6 +25,17 @@
     color: #333;
     font-family: "Montserrat", sans-serif;
 }
+.error{
+    color: red !important;
+    font-size: 0.8rem !important;
+    margin-top: 5px !important;
+}
+
+.success{
+    color: green !important;
+    font-size: 0.8rem !important;
+    margin-top: 5px;
+}
 
 .formContainer h1{
     font-size: 2.5rem;
@@ -67,6 +78,14 @@
 @media (max-width: 768px){
     .formContainer{
         top: -50px;
+    }
+
+    .success{
+        font-size: 0.7rem;
+    }
+
+    .error{
+        font-size: 0.7rem;
     }
 
     .bind label{

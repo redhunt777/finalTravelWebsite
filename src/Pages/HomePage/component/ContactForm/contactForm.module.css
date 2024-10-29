@@ -43,6 +43,16 @@
     width: 100%;
 }
 
+.error{
+    color: red;
+    font-size: 0.8rem;
+}
+
+.success{
+    color: green;
+    font-size: 0.8rem;
+}
+
 .formC form{
     display: flex;
     flex-direction: column;
@@ -106,6 +116,14 @@
 
     .formC{
         margin: 0;
+    }
+
+    .error{
+        font-size: 0.7rem;
+    }
+
+    .success{
+        font-size: 0.7rem;
     }
 
     .formC form{
