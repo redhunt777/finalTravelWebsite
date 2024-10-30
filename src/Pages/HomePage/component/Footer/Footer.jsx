@@ -28,7 +28,9 @@ const Footer = () => {
                 </a>
               </div>
               <div className={style.logo}>
-                <img src="/sl_z_072523_61700_01.jpg" alt="X logo" />
+                <a href="https://x.com/BtechTravelwala?t=y_RpeUCWoUcSV3aRtn8meQ&s=09">
+                  <img src="/sl_z_072523_61700_01.jpg" alt="X logo" />
+                </a>
               </div>
               <div className={style.logo}>
                 <img src="/386622_facebook_icon.png" alt="facebook logo" />

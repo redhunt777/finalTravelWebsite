@@ -109,17 +109,19 @@ const PrivacyPolicy = () => {
           </p>
           <p>
             For privacy-related inquiries, please email us at{" "}
-            <a href="/">support@btechtravelwala.com</a> or contact us via postal
-            mail at:
+            <a href="mailto:taladenanakram@gmail.com">
+              taladenanakram@gmail.com
+            </a>
+            or contact us via postal mail at:
           </p>
           <p>
             <strong>Btech Travelwala</strong>
           </p>
           <p>
-            <strong>1234 Main Street</strong>
+            <strong>46, Pawanpuri colony, Palda road, Indore</strong>
           </p>
           <p>
-            <strong>City, State, 12345</strong>
+            <strong>Madhya pradesh-452001</strong>
           </p>
         </div>
       </div>
