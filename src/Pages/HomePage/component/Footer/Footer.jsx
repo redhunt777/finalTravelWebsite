@@ -90,7 +90,7 @@ const Footer = () => {
             | All Rights Reserved |
             <span>
               {" "}
-              Designed by and Created and{" "}
+              Designed and Created by{" "}
               <a
                 href="https://shauryaadi99.github.io/Core-RTX-details/"
                 style={{ color: "inherit" }}
