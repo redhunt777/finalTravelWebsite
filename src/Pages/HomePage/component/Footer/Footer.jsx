@@ -87,7 +87,19 @@ const Footer = () => {
             <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>
               BtechTravelwala.com
             </Link>{" "}
-            | All Rights Reserved |<span> Designed by BtechTravelwala.com</span>
+            | All Rights Reserved |
+            <span>
+              {" "}
+              Designed by{" "}
+              <a
+                href="https://shauryaadi99.github.io/Core-RTX-details/"
+                style={{ color: "inherit" }}
+                target="blank"
+                rel="noreferrer"
+              >
+                Core RTX
+              </a>
+            </span>
           </p>
         </div>
       </div>

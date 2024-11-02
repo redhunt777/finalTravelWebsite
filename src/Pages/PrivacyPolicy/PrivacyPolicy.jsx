@@ -111,7 +111,7 @@ const PrivacyPolicy = () => {
             For privacy-related inquiries, please email us at{" "}
             <a href="mailto:taladenanakram@gmail.com">
               taladenanakram@gmail.com
-            </a>
+            </a>{" "}
             or contact us via postal mail at:
           </p>
           <p>
