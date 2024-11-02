@@ -74,8 +74,8 @@ const Footer = () => {
           <div className={style.container}>
             <h4>Contact</h4>
             <ul>
-              <li>46, Pawanpuri colony, Palda road, Indore</li>
-              <li>Madhya pradesh-452001</li>
+              <li>46, Pawanpuri colony, Palda road</li>
+              <li> Indore, Madhya pradesh-452001</li>
               <li>+91 7004555717</li>
               <li>BtechTravelwala.com</li>
             </ul>
@@ -90,7 +90,7 @@ const Footer = () => {
             | All Rights Reserved |
             <span>
               {" "}
-              Designed by{" "}
+              Designed by and Created and{" "}
               <a
                 href="https://shauryaadi99.github.io/Core-RTX-details/"
                 style={{ color: "inherit" }}
