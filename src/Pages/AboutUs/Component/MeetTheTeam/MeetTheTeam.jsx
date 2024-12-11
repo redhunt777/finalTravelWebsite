@@ -18,7 +18,7 @@ const data = [
       "Aashish Pal, COO of Btech Travelwala, ensures smooth operations and high-quality travel experiences. With expertise in managing large-scale projects, he focuses on operational excellence, enabling the company to offer personalized, enriching trips while upholding top customer satisfaction standards.",
   },
   {
-    img: "https://www.w3schools.com/w3images/team3.jpg",
+    img: "/IMG-20241211-WA0009.jpg",
     name: "Suryansh Dey",
     title: "Chief Technology Officer",
     description:
