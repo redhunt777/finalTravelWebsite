@@ -92,12 +92,12 @@ const Footer = () => {
               {" "}
               Designed and Created by{" "}
               <a
-                href="https://shauryaadi99.github.io/Core-RTX-details/"
+                href="/"
                 style={{ color: "inherit" }}
                 target="blank"
                 rel="noreferrer"
               >
-                Core RTX
+                Webify Wave
               </a>
             </span>
           </p>
