@@ -5,8 +5,8 @@ import Sidebar from "./SideBar/SideBar";
 
 const navLinks = [
   {
-    title: "Personalised Trips",
-    url: "/personalised-trips",
+    title: "Home",
+    url: "/",
   },
   {
     title: "Corporate Trips",

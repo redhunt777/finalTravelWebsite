@@ -30,7 +30,6 @@ const itemVariants = {
 const Links = ({ state, handleClick }) => {
   const items = [
     { title: "Home", url: "/" },
-    { title: "Personalised Trips", url: "/personalised-trips" },
     { title: "Corporate Trips", url: "/corporate-trips" },
     {
       title: "Group Trips ▼",
