@@ -43,9 +43,9 @@ const NavBar = () => {
       <div className={style.logoContainer} onClick={handleHome}>
         <img
           src="/LogoBtechTravelwala-removebg-preview.png"
-          alt="BtechTravelWala"
+          alt="Explorify Trips logo"
         />
-        <span>Btech Travelwala</span>
+        <span>Explorify Trips </span>
       </div>
       <div className={style.navLinksContainer}>
         {navLinks.map((link, index) => (

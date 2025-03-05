@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
         <div className={style.textContainer}>
           <h1>Privacy Policy</h1>
           <p>
-            The terms “We” / “Us” / “Our” / “Company” refer to Btech Travelwala,
+            The terms “We” / “Us” / “Our” / “Company” refer to Explorify Trips,
             and the terms “You” / “Your” / “Yourself” refer to users.
           </p>
           <p>
@@ -22,12 +22,12 @@ const PrivacyPolicy = () => {
             is required.
           </p>
           <p>
-            This document is a legally binding contract between you and Btech
-            Travelwala, effective upon your acceptance{" "}
+            This document is a legally binding contract between you and
+            Explorify Trips, effective upon your acceptance{" "}
             {`(either directly or by
             using the website, clicking "I accept," or similar means)`}{" "}
-            and will govern the relationship between you and Btech Travelwala
-            for use of the website “www.btechtravelwala.com.”
+            and will govern the relationship between you and Explorify Trips for
+            use of the website “www.explorifytrips.com.”
           </p>
           <p>
             This Privacy Policy aligns with the Information Technology
@@ -115,7 +115,7 @@ const PrivacyPolicy = () => {
             or contact us via postal mail at:
           </p>
           <p>
-            <strong>Btech Travelwala</strong>
+            <strong>Explorify Trips</strong>
           </p>
           <p>
             <strong>46, Pawanpuri colony, Palda road, Indore</strong>

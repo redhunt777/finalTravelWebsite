@@ -14,10 +14,10 @@ const TermsAndCondition = () => {
           <h4>Introduction</h4>
           <p>
             These Terms and Conditions {`("Terms")`} govern the relationship
-            between you {`("Client" or "you")`} and Btech Travelwala Pvt. Ltd.
-            {`("Btech Travelwala," "company," "we," or "us")`}. By booking any
-            tour or service with Btech Travelwala, you agree to be bound by
-            these Terms. Please read them carefully.
+            between you {`("Client" or "you")`} and Explorify Trips Pvt. Ltd.
+            {`("Explorify Trips," "company," "we," or "us")`}. By booking any
+            tour or service with Explorify Trips, you agree to be bound by these
+            Terms. Please read them carefully.
           </p>
           <h4>Scope of Services</h4>
           <p>Our services include but are not limited to:</p>
@@ -66,7 +66,7 @@ const TermsAndCondition = () => {
           </li>
           <li>
             <strong>Forfeiture Clause:</strong> Any cash deposits made without
-            the knowledge of Btech Travelwala in its bank accounts against a
+            the knowledge of Explorify Trips in its bank accounts against a
             booking will be forfeited.
           </li>
           <h4>Pricing and Inclusions</h4>
@@ -84,13 +84,13 @@ const TermsAndCondition = () => {
           <h4>Cancellation and Refund Policy</h4>
           <li>
             <strong>Cancellation by Client:</strong> All cancellations must be
-            submitted in writing to Btech Travelwala. Cancellation charges apply
+            submitted in writing to Explorify Trips. Cancellation charges apply
             as per the policy provided at the time of booking Refunds, if
             applicable, will be processed within 7-10 working days.
           </li>
           <h4>Itinerary Changes</h4>
           <li>
-            <strong>Modification by BtechTravelwala:</strong> We reserve the
+            <strong>Modification by Explorify Trips:</strong> We reserve the
             right to alter itineraries, accommodations, or transportation
             arrangements due to unforeseen circumstances, including weather
             conditions, political unrest, or other factors beyond our control.
@@ -110,21 +110,21 @@ const TermsAndCondition = () => {
           </li>
           <li>
             <strong>On-Tour Changes:</strong> During the tour, itinerary changes
-            may occur due to natural calamities or safety considerations. Btech
-            Travelwala will strive to minimize any disruptions to your travel
-            experience.
+            may occur due to natural calamities or safety considerations.
+            Explorify Trips will strive to minimize any disruptions to your
+            travel experience.
           </li>
           <h4>Travel Insurance</h4>
           <li>
             <strong>Mandatory Insurance:</strong> We strongly recommend that all
             clients obtain comprehensive travel insurance covering trip
-            cancellations, medical emergencies, and loss of baggage. Btech
-            Travelwala is not responsible for losses not covered by insurance.
+            cancellations, medical emergencies, and loss of baggage. Explorify
+            Trips is not responsible for losses not covered by insurance.
           </li>
           <li>
             <strong>Medical Conditions:</strong> Clients must disclose any
             medical conditions that may affect their ability to fully
-            participate in the tour. Btech Travelwala reserves the right to
+            participate in the tour. Explorify Trips reserves the right to
             request a medical fitness certificate.
           </li>
           <h4>Health and Safety</h4>
@@ -132,7 +132,7 @@ const TermsAndCondition = () => {
             <strong>Health Requirements:</strong> Clients are responsible for
             meeting all health requirements, including vaccinations, for their
             destination{`(s)`}. Any existing medical conditions must be
-            disclosed to Btech Travelwala prior to booking.
+            disclosed to Explorify Trips prior to booking.
           </li>
           <li>
             <strong>Safety Guidelines:</strong> Clients must adhere to all
@@ -142,14 +142,14 @@ const TermsAndCondition = () => {
           <li>
             <strong>Adventure Activities:</strong> Clients participating in
             adventure activities do so at their own risk and must ensure they
-            are medically fit to do so. Btech Travelwala is not liable for any
+            are medically fit to do so. Explorify Trips is not liable for any
             injury or loss of life resulting from such participation.
           </li>
           <h4>Travel Documents</h4>
           <li>
             <strong>Passport and Visas:</strong> Clients are responsible for
             obtaining valid passports and visas for their destination{`(s)`}.
-            Btech Travelwala will provide guidance and assistance as needed.
+            Explorify Trips will provide guidance and assistance as needed.
           </li>
           <li>
             <strong>Document Validity:</strong> Passports must be valid for at
@@ -158,13 +158,13 @@ const TermsAndCondition = () => {
           </li>
           <h4>Airline Guidelines</h4>
           <li>
-            <strong>Flight Delays and Cancellations:</strong> Btech Travelwala
-            is not responsible for any delays, cancellations, or disruptions
-            caused by airlines. Clients must contact the airline directly for
+            <strong>Flight Delays and Cancellations:</strong> Explorify Trips is
+            not responsible for any delays, cancellations, or disruptions caused
+            by airlines. Clients must contact the airline directly for
             assistance.
           </li>
           <li>
-            <strong>Baggage:</strong> Btech Travelwala is not liable for baggage
+            <strong>Baggage:</strong> Explorify Trips is not liable for baggage
             delays or losses caused by airlines. Travelers must manage such
             issues directly with the airline.
           </li>
@@ -217,24 +217,24 @@ const TermsAndCondition = () => {
           <li>
             <strong>Self-Arranged Transfers:</strong> For certain customized
             trips, clients may be required to arrange their own transfers to
-            departure points. Btech Travelwala will provide guidance on nearby
+            departure points. Explorify Trips will provide guidance on nearby
             accommodation if necessary.
           </li>
           <h4>Limitation of Liability</h4>
           <li>
-            <strong>Third-Party Services:</strong> Btech Travelwala acts as an
+            <strong>Third-Party Services:</strong> Explorify Trips acts as an
             intermediary between clients and third-party service providers
-            {`(hotels, airlines, transporters, etc.)`}. Btech Travelwala is not
+            {`(hotels, airlines, transporters, etc.)`}. Explorify Trips is not
             liable for any loss, injury, or damage caused by these third
             parties.
           </li>
           <li>
-            <strong>Force Majeure:</strong> Btech Travelwala is not liable for
+            <strong>Force Majeure:</strong> Explorify Trips is not liable for
             any failure to perform its obligations due to events beyond its
             control, such as natural disasters, wars, strikes, or pandemics.
           </li>
           <li>
-            <strong>Liability for Personal Belongings:</strong> Btech Travelwala
+            <strong>Liability for Personal Belongings:</strong> Explorify Trips
             is not responsible for the loss of personal belongings, including
             passports, Aadhar cards, PAN cards, driving licenses, etc., during
             the tour.
@@ -253,7 +253,7 @@ const TermsAndCondition = () => {
           </li>
           <h4>Privacy and Data Protection</h4>
           <li>
-            <strong>Data Collection:</strong> Btech Travelwala collects personal
+            <strong>Data Collection:</strong> Explorify Trips collects personal
             data to provide travel services. This data will be handled in
             accordance with our Privacy Policy, compliant with the Indian
             Information Technology Act, 2000, and GDPR for clients from the EU.
@@ -281,20 +281,20 @@ const TermsAndCondition = () => {
           </li>
           <li>
             <strong>Jurisdiction:</strong> Any disputes arising from these Terms
-            or related to BtechTravelwala's services shall be subject to the
+            or related to Explorify Tripsa's services shall be subject to the
             exclusive jurisdiction of the courts or similar institutions in
             Delhi, India.
           </li>
           <h4>Amendments to Terms</h4>
           <li>
-            <strong>Right to Amend:</strong> Btech Travelwala reserves the right
+            <strong>Right to Amend:</strong> Explorify Trips reserves the right
             to amend these Terms at any time. Any changes will be communicated
             via our website, and continued use of our services constitutes
             acceptance of the updated Terms.
           </li>
           <h4>Acceptance of Terms</h4>
           <li>
-            By booking a tour with Btech Travelwala, you acknowledge that you
+            By booking a tour with Explorify Trips , you acknowledge that you
             have read, understood, and agreed to these Terms and Conditions.
             These Terms constitute the entire agreement between you and Btech
             Travelwala regarding your use of our services.
@@ -302,7 +302,7 @@ const TermsAndCondition = () => {
           <h4>Contact Information</h4>
           <li>
             For any inquiries or issues, please contact our customer service
-            team at connect@BtechTravelwala.in or 7004555717. Our office hours
+            team at connect@Explorify Tripsa.in or 7004555717. Our office hours
             are 11.30 AM-9.30 PM.
           </li>
           <h4>Miscellaneous</h4>

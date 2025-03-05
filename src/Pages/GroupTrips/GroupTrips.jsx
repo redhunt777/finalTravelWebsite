@@ -180,7 +180,7 @@ const GroupTripPage = ({ groupTripsData }) => {
               </h2>
               {showGeneralPolicy && (
                 <p>
-                  BtechTravelwala and its organizers strictly prohibit the
+                  Explorify Trips and its organizers strictly prohibit the
                   utilization of any narcotics or banned substances during the
                   tour. <br />
                   The trip amount is based on a quad-sharing basis. An extra
@@ -188,7 +188,7 @@ const GroupTripPage = ({ groupTripsData }) => {
                   Fireworks, weapons, or toxic substances are not allowed. The
                   organizers reserve the right to evict anyone found violating
                   this rule without any refund. <br />
-                  BtechTravelwala is not responsible for your safety or
+                  Explorify Trips is not responsible for your safety or
                   whereabouts outside of the resort premises. <br />
                   In case of transport breakdown, there will be no backup
                   provided. You will have to wait until the vehicle is repaired.{" "}

@@ -11,9 +11,9 @@ const Footer = () => {
       <div className={style.footerContainer}>
         <div className={style.footer}>
           <div className={`${style.container} ${style.paddingRight}`}>
-            <h3>BtechTravelwala.com</h3>
+            <h3>Explorify Trips</h3>
             <p>
-              BTech Travelwala is a AI travel company that provides a wide range
+              Explorify Trips is a AI travel company that provides a wide range
               of travel services to its customers like group tours, custom
               tours, and corporate tours. We also provide travel packages for
               various destinations.
@@ -53,9 +53,6 @@ const Footer = () => {
                 <Link to="/about">About</Link>
               </li>
               <li>
-                <Link to="/personalised-trips">Personalised Trips</Link>
-              </li>
-              <li>
                 <Link to="/corporate-trips">Corporate Tours</Link>
               </li>
             </ul>
@@ -77,7 +74,7 @@ const Footer = () => {
               <li>46, Pawanpuri colony, Palda road</li>
               <li> Indore, Madhya pradesh-452001</li>
               <li>+91 7004555717</li>
-              <li>BtechTravelwala.com</li>
+              <li>explorifytrips.com</li>
             </ul>
           </div>
         </div>
@@ -85,7 +82,7 @@ const Footer = () => {
           <p>
             &copy; 2024{" "}
             <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>
-              BtechTravelwala.com
+              explorifytrips.com
             </Link>{" "}
             | All Rights Reserved |
             <span>

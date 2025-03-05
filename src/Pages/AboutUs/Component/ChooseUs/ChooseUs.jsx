@@ -9,10 +9,10 @@ const ChooseUs = () => {
       </div>
       <div className={style.textContainer}>
         <h1 className={style.heading}>
-          Introducing<span>Btech Travelwala</span>
+          Introducing<span>Explorify Trips </span>
         </h1>
         <p className={style.text}>
-          Btech Travelwala is a premier AI travel company dedicated to creating
+          Explorify Trips is a premier AI travel company dedicated to creating
           unforgettable journeys tailored specifically for college students and
           young travelers. By blending adventure, education, and affordability,
           we offer unique, AI-driven itineraries and immersive experiences that

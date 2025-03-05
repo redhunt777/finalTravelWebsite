@@ -153,7 +153,7 @@ const groupTripsData = {
     upcomingTrip: "none",
     price: "none",
     description: `
-      Embark on an exhilarating group trip to Goa, the vibrant coastal paradise, with Btech TravelWala as your trusted companion. 
+      Embark on an exhilarating group trip to Goa, the vibrant coastal paradise, with Explorify Trips  as your trusted companion. 
       This tropical destination, famous for its golden beaches, lively nightlife, and rich cultural heritage, promises an unforgettable adventure. 
       We handle all the logistics, ensuring a seamless and enjoyable experience for you and your fellow travellers.
 
@@ -162,7 +162,7 @@ const groupTripsData = {
       As the night falls, join us for a musical night under the stars, complete with group games, dancing, and live performances by the group. 
 
       Enjoy sightseeing tours to iconic spots such as Baga Beach, Dudhsagar Waterfalls, Fort Aguada, and the ancient churches of Old Goa. 
-      Let Btech TravelWala guide you through this exciting journey, where Goa’s vibrant charm and your newfound friendships will create lasting memories.`,
+      Let Explorify Trips  guide you through this exciting journey, where Goa’s vibrant charm and your newfound friendships will create lasting memories.`,
     itinerary: [
       {
         day: 1,
