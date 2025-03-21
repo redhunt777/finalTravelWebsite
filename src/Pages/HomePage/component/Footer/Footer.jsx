@@ -32,7 +32,7 @@ const Footer = () => {
                   <img src="/sl_z_072523_61700_01.jpg" alt="X logo" />
                 </a>
               </div>
-              <div className={style.logo}>
+              {/* <div className={style.logo}>
                 <img src="/386622_facebook_icon.png" alt="facebook logo" />
               </div>
               <div className={style.logo}>
@@ -40,7 +40,7 @@ const Footer = () => {
                   src="/317725_linkedin_social_icon.png"
                   alt="linkedin logo"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className={`${style.container} ${style.quickLinks}`}>

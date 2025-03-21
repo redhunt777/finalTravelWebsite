@@ -17,8 +17,8 @@ import { useState, useEffect } from "react";
 const groupTripsData = {
   mumbai: {
     title: "Mood Indigo and Mumbai Darshan",
-    upcomingTrip: "mid December",
-    price: "11499/-",
+    upcomingTrip: "none",
+    price: "none",
     description:
       'Mood Indigo and Mumbai Darshan together create an unforgettable blend of cultural immersion and urban exploration. As IIT Bombay’s premier cultural festival, Mood Indigo is a high-energy, multi-day extravaganza, drawing students and artists from across the country to showcase their talents in music, dance, arts, literature, and more. Known for its electrifying pro shows, thought-provoking panel discussions, and diverse workshops, Mood Indigo offers a one-of-a-kind experience of creativity, expression, and skill-building. Festival-goers are immersed in a world of lively competitions, interactive workshops, and incredible performances by renowned artists and inspiring personalities, making Mood Indigo a pinnacle of India’s collegiate cultural festivals. Adding to this festival spirit, Mumbai Darshan offers participants the chance to explore the vibrant city of Mumbai, known as the "City of Dreams" and a melting pot of history, culture, and modernity. From the iconic Gateway of India and Marine Drive’s coastal charm to the bustling markets of Colaba and the historic Prince of Wales Museum, Mumbai Darshan takes travelers on a whirlwind tour of the city’s most celebrated landmarks. This exploration also includes stops at Juhu Beach, Siddhivinayak Temple, and the Bandra-Worli Sea Link, showcasing the beauty and diversity of Mumbai’s iconic locations. The journey through Mumbai\'s famed streets, rich with cultural heritage and urban flair, complements the dynamic atmosphere of Mood Indigo, creating a truly immersive and memorable experience for all attendees.',
     itinerary: [
@@ -347,32 +347,32 @@ const slideData = [
 ];
 
 function App() {
-  const [showUpcomingTripCard, setShowUpcomingTripCard] = useState(false);
+  // const [showUpcomingTripCard, setShowUpcomingTripCard] = useState(false);
 
-  const handleClose = () => {
-    setShowUpcomingTripCard(false);
-  };
+  // const handleClose = () => {
+  //   setShowUpcomingTripCard(false);
+  // };
 
-  useEffect(() => {
-    // Check if the component has already been shown in the current session
-    const hasShown = sessionStorage.getItem("hasShownUpcomingTripCard");
+  // useEffect(() => {
+  //   // Check if the component has already been shown in the current session
+  //   const hasShown = sessionStorage.getItem("hasShownUpcomingTripCard");
 
-    if (!hasShown) {
-      // Show the component with a delay and set flag in session storage
-      const timer = setTimeout(() => {
-        setShowUpcomingTripCard(true);
-        sessionStorage.setItem("hasShownUpcomingTripCard", "true");
-      }, 2000);
+  //   if (!hasShown) {
+  //     // Show the component with a delay and set flag in session storage
+  //     const timer = setTimeout(() => {
+  //       setShowUpcomingTripCard(true);
+  //       sessionStorage.setItem("hasShownUpcomingTripCard", "true");
+  //     }, 2000);
 
-      return () => clearTimeout(timer); // Clean up timer on unmount
-    }
-  }, []);
+  //     return () => clearTimeout(timer); // Clean up timer on unmount
+  //   }
+  // }, []);
 
   return (
     <BrowserRouter>
-      {showUpcomingTripCard && (
+      {/* {showUpcomingTripCard && (
         <UpcomingTripCard handleClose={handleClose}></UpcomingTripCard>
-      )}
+      )} */}
       {/* Conditionally render */}
       <ScrollToTop />
       <Routes>
